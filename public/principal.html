@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./js/css/styleAPP.css">
+    <link rel="stylesheet" href="./js/css/style.css">
+    <script defer src="./js/sideBar.js" type="module"></script>
+    <script defer src="./js/principal.js" type="module"></script>
+    <title>PSS APP - Toma de datos -</title>
+</head>
+<body>
+    <!--------- Datos del proyecto V2.0 --------->
+
+
+<nav class="nav" id="siberBar">
+    <div class="navCabecero">
+        Seleccione el tipo de Documento <span style="color: orangered;">(texto explicativo?)</span>
+    </div>
+    
+    <div class="nav-list">
+
+        <div class="nav-list-item">
+            <div class="nav-list-item-button">
+                <label for="btnPSS">Plan de Seguridad y Salud</label>
+                <input id="btnPSS" type="radio" name="tipoDoc" value="PSS">
+            </div>
+        </div>
+        <div class="nav-list-item">
+            <div class="nav-list-item-button">
+                <label for="btnDGP">Documento de Gestión Preventiva</label>
+                <input id="btnDGP" type="radio" name="tipoDoc" value="DGP">
+            </div>
+        </div>
+            
+
+    </div>
+
+        </div>
+    </div>
+</nav>
+
+<div class="nav" id="panelInputs">
+    <div class="panelInterior" id="panelInputCabecera">
+        <p>SECCION 1 - DATOS DE PROYECTO</p>
+    </div>
+    <div id="formulario" class="panelInterior">
+        <div class="input">
+            <div class="inputTexto">
+                <label>Etiqueta input</label>
+                <input placeholder="algo" id="etiqueta1">
+            </div>
+        </div>
+
+        <div class="input">
+            <div class="inputTexto">
+                <label>Etiqueta input</label>
+                <input placeholder="algo" id="etiqueta2">
+            </div>
+        </div>
+
+        <div class="input">
+            <div class="inputTexto">
+                <label>Etiqueta input</label>
+                <input placeholder="algo" id="etiqueta3">
+            </div>
+        </div>
+        <div class="input">
+            <div class="inputTexto">
+                <label>Etiqueta input</label>
+                <input placeholder="algo" id="etiqueta1">
+            </div>
+        </div>
+
+        <div class="input">
+            <div class="inputTexto">
+                <label>Etiqueta input</label>
+                <input placeholder="algo" id="etiqueta2">
+            </div>
+        </div>
+
+        <div class="input">
+            <div class="inputTexto">
+                <label>Etiqueta input</label>
+                <input placeholder="algo" id="etiqueta3">
+            </div>
+        </div>
+        
+    </div>
+<div class="panelInterior">
+    <div class="panelBtnGuardar" >
+        <button id="btnform" class="btnGuardar" type="button" >Comenzar proyecto</button>
+    </div>
+</div>
+<div id="mensajeDiv" >
+</div>
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./js/unidadObra.js" type="module"></script>
+    <script defer src="./js/sideBar.js" type="module"></script>
+    <link rel="stylesheet" href="./js/css/styleUO.css">
+    <title>PSS APP - Unidades de obra -</title>
+</head>
+<body>
+
+<!-- SIDE BAR con la unidades de obra y buscador-->
+
+<nav class="nav" id="barraLateral">
+    <!--Esto se escribe dinamicamente-->
+    <div id="navCabecero">
+        Selecciona las unidades de obra <span style="color: orangered;">(aqui buscador!!)</span>
+    </div>
+    
+    <div class="nav-list"> 
+        <div class="nav-list-item" id="idInstalaciones">
+            <div class="nav-list-item-button">
+                <img>
+                <p>Instalaciones</p>
+                <img src="./js/icons/arrowRight.svg" class="flecha">
+            </div>
+
+            <div class="nav-list-item-show">
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra">
+                    <p id="idDeUNIDAD DE OBRA">Dentro de menu1</p>
+                </div>
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra">
+                    <p id="idDeUNIDAD DE OBRA">Dentro de menu2</p>
+                </div>
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra">
+                    <p id="idDeUNIDAD DE OBRA">Dentro de menu3</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-list-item" id="idAlbañileria">
+            <div class="nav-list-item-button">
+                <img>
+                <p>Albañileria</p>
+                <img src="./js/icons/arrowRight.svg" class="flecha">
+            </div>
+
+            <div class="nav-list-item-show">
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra">
+                    <p id="idDeUNIDAD DE OBRA">Dentro de menu1</p>
+                </div>
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra">
+                    <p id="idDeUNIDAD DE OBRA">Dentro de menu2</p>
+                </div>
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra">
+                    <p id="idDeUNIDAD DE OBRA">Dentro de menu3</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<!-- Pantalla con el texto de la unidad de obra -->
+<div id="panel">
+
+    <div id="panelTxt" class="panelTxt">
+        <p>Descripción unidad de obra</p>
+        <textarea class="input" id="descripcionUO"></textarea>
+        <button class="btn" >GUARDAR CAMBIOS</button>
+    </div>
+    <div id="panelTxtMedPreventivas" class="panelTxt">
+        <p>Medidas preventivas</p>
+        <textarea class="input" id="descripcionMedPrev"></textarea>
+        <button class="btn" >GUARDAR CAMBIOS</button>
+    </div>
+    <div id="panelTablaRiesgos" class="panelTxt" >
+    <table class="tabla">
+        <caption>Riesgos de la unidad obra</caption>
+        <tr>
+            <th style="width: 50%;">RIESGO</th>
+            <th>PROBABILIDAD</th>
+            <th>CONSECUENCIA</th>
+        </tr>
+        <!--ESTO DE ABAJO DE INYECTA DINAMICAMENTE-->
+        <tr>
+            <td><label></label></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td><label></label></td>
+            <td><input type="number"></td>
+            <td><input type="number"></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="panelPieObra">
+       <div class="subPanelpieObra" id="idMEDAUX">
+            <div id="subPanelpieObraCabecera">
+                <p>MEDIOS AUXILIARES</p>
+            </div>
+            <div class="listaMedios" id="listaMedios">
+                <div class="listaMediosITEM"><p>medio 1</p><button>X</button></div>
+                <div class="listaMediosITEM"><p>medio 2</p><button>X</button></div>
+                <div class="listaMediosITEM"><p>medio 3</p><button>X</button></div>
+                <div class="listaMediosITEM"><p>medio 4</p><button>X</button></div>
+                <div class="listaMediosITEM"><p>medio 5</p><button>X</button></div>
+            </div>
+            <div id="btnAdd">
+                <button>Add</button>
+            </div>
+       </div>
+       <div class="subPanelpieObra" id="idEPIS">
+        <div id="subPanelpieObraCabecera">
+            <p>EPIs</p>
+        </div>
+        <div class="listaMedios" id="listaEpis">
+            
+        </div>
+        <div id="btnAdd">
+            <button>Add</button>
+        </div>
+   </div>
+   <div class="subPanelpieObra" id="idMAQUINARIA">
+
+    <div id="subPanelpieObraCabecera">
+        <p>MAQUINARIA</p>
+    </div>
+    <div class="listaMedios" id="listaMaquinas">
+        
+    </div>
+    <div id="btnAdd">
+        <button>Add</button>
+    </div>
+
+</div>
+
+</div>
+<div id="panelBtnGuardar">
+    <button class="btnGuardar" id="btnGuardarContinuar">Guardar uniadades de obra y continuar</button>
+</div>
+
+</div>
+
+</body>

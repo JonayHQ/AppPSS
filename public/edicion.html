@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./js/css/style.css">
+    <script defer src="./js/sideBar.js" type="module"></script>
+    <script defer src="./js/edicion.js" type="module"></script>
+    <title>PSS APP - Edicion de informe -</title>
+</head>
+<body>
+    <!--------- Datos del proyecto V2.0 --------->
+
+<nav class="nav" id="barraLateral">
+    <div class="navCabecero">
+        Selecciona las unidades de obra <span style="color: orangered;">(aqui buscador!!)</span>
+    </div>
+    <div class="nav-list">
+        <div class="nav-list-item" id="idInstalaciones">
+            <div class="nav-list-item-button">
+                <img>
+                <p>Capitulo I</p>
+                <img src="./js/icons/arrowRight.svg" class="flecha">
+            </div>
+            <div class="nav-list-item-show">
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra" checked>
+                    <p id="idDeUNIDAD DE OBRA">Introduccion</p>
+                </div>
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra" checked>
+                    <p id="idDeUNIDAD DE OBRA">Datos proyecto</p>
+                </div>
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra" checked>
+                    <p id="idDeUNIDAD DE OBRA">xxxxxxxx.....</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="nav-list-item" id="idAlbañileria">
+            <div class="nav-list-item-button">
+                <img>
+                <p>Capitulo II</p>
+                <img src="./js/icons/arrowRight.svg" class="flecha">
+            </div>
+
+            <div class="nav-list-item-show">
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra" checked>
+                    <p id="idDeUNIDAD DE OBRA">titulo1</p>
+                </div>
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra" checked>
+                    <p id="idDeUNIDAD DE OBRA">titulo2</p>
+                </div>
+                <div class="item-inside">
+                    <input type="checkbox" id="idUnidadObra" checked>
+                    <p id="idDeUNIDAD DE OBRA">titulo3</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+<div class="panel">
+    <div class="panelInterior" id="panelInputCabecera">
+        <p>SECCION 4 - EDITAR INFORME FINAL</p>
+    </div>
+    <div class="panelTxt">
+        <p>Texto capitulo</p>
+        <textarea class="input"> </textarea>
+        <button class="btn" >GUARDAR CAMBIOS</button>
+    </div>
+    <div class="panelInterior">
+        <button class="btn btnSiguiente" id="btnInforme">Descargar informe (WORD)</button>
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>

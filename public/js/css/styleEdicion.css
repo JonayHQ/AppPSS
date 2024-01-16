@@ -1,0 +1,104 @@
+body .nav{
+    background-color:grey
+}
+
+body #panel{
+    background-color:grey
+}
+
+.nav {
+
+border-radius: 8px;
+width: 330px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+#navCabecero {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+color: aliceblue;
+padding-top: 10px;
+font-weight: bolder;
+font-size: 20px;
+}
+
+.nav div{
+    cursor: pointer;   
+}
+
+.nav-list{
+    padding: 10px;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5px;
+
+}
+
+.nav-list-item{
+    background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    );
+border-radius: 4px;
+text-align: center;
+list-style: none;
+justify-items: center;
+overflow: hidden;
+}
+
+.nav-list-item-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.arrow .flecha{
+        transform: rotate(90deg);
+        }
+.flecha{
+            transition: transform 0.3s;
+        }
+
+    .nav-list-item-button:hover{
+        background-color: blanchedalmond;
+        }
+
+    .nav-list-item-show {
+            
+            height: 0px;
+            margin-right: 10px;
+            margin-bottom: 0px;
+            width: 100%;
+            align-items: left;
+            padding: left 0px;
+            align-items:left;
+            transition: height 0.5s;
+            height: 0px;
+            }
+
+    .activo {
+            transition: height 0.5s;
+            height: 100px;
+            }
+    
+    .nav-list-item-show div{
+        background-color: white;
+        margin: 2px;
+        margin-right: 5px;
+        width: 100%;
+        height: 30px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .nav-list-item-show div:hover{
+        background-color: rgba(255, 255, 255, 0.568);
+        }

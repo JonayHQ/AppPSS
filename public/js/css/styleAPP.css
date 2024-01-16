@@ -1,0 +1,71 @@
+
+#siberBar{
+    width: 330px;
+}
+
+.nav-list-item label{
+width: 100%;
+padding: 10px;
+}
+
+#panelInputs{
+    width: 100%;
+    max-width: 900px;
+}
+
+
+#formulario{
+
+padding: 15px;
+padding-bottom: 3px;
+
+
+}
+
+
+#formulario input{
+margin: 10px;
+height: 25px;
+width: 300px;
+
+    }
+
+.inputTexto { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.inputTexto label{ 
+    width: 30%;
+    
+}
+
+
+
+.panelBtnGuardar{
+    border-radius: 8px;
+    margin: 5px;
+    padding: 0px;
+    min-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.btnGuardar{
+    background: white;
+    border-radius: 4px;
+    margin: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0px;
+    box-shadow: 2px 2px 4px;
+    width: auto;
+    padding: 10px;
+    font-weight: bolder;  
+}
+
+

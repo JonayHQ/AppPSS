@@ -1,0 +1,56 @@
+.AuthTitulo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background-color:cornflowerblue;
+    border-radius: 8px;
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+
+  }
+
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-content: center;
+    background:
+    linear-gradient(
+      rgba(220, 234, 237, .7),
+      rgba(220, 234, 237, .7)
+    )
+  }
+
+  .panel {
+    background-color:orange; /* Green */
+    border-radius: 8px;;
+    margin: 5px;
+    width: 90%;
+    padding: 10px;
+  
+  }
+
+button {
+  background-color:cornflowerblue; /* Green */
+  border: black;
+  color: white;
+  width: 80%;
+  border-radius: 4px;
+  height: 40px;
+  padding: 10px;
+  margin: 5px;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+h2{
+  padding: 5px;
+  margin: 2px;
+
+}
+
+
+
